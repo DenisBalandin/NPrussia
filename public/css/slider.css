@@ -1,0 +1,184 @@
+/* #########################################################
+
+HOW TO CREATE A RESPONSIVE IMAGE SLIDER [TUTORIAL]
+
+"How to create a Responsive Image Slider [Tutorial]" was specially made for DesignModo by our friend Valeriu Timbuc.
+
+Links:
+http://vtimbuc.net
+http://designmodo.com
+http://vladimirkudinov.com
+
+######################################################### */
+
+
+#slider{width: 1200px; margin: 20px auto 0 auto;  }
+/* Browser Resets */
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus  { outline: none; }
+
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+.flexslider a img { outline: none; border: none; border: 1px solid #cdcdcd; }
+
+.flexslider {
+	margin: 0;
+	padding: 0;
+}
+
+/* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides > li {
+	display: none;
+	-webkit-backface-visibility: hidden;
+	width: 1200px; height: 380px;  overflow: hidden; padding: 10px 0 0px 0px;
+}
+.flexslider .slides{border: 1px solid #cdcdcd;}
+.flexslider .slides img {
+	display: block;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	width: 650px;
+	position: absolute;
+	margin:0 0 0 10px;
+}
+
+/* Clearfix for the .slides element */
+.slides:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+	border: 1px solid #cdcdcd;
+}
+
+html[xmlns] .slides { display: block; }
+* html .slides { height: 1%; }
+/* Theme Styles */
+.flexslider {
+	position: relative;
+	zoom: 1;
+	padding: 10px;
+	background: #ffffff;
+}
+
+/* Edit it if you want */
+.flex-container {
+	min-width: 150px;
+	max-width: 1200px;
+}
+
+.flexslider .slides { zoom: 1; }
+
+
+
+/* Direction Nav */
+.flex-direction-nav a {
+	display: block;
+	position: absolute;
+	margin: -17px 0 0 0;
+	width: 35px;
+	height: 35px;
+	top: 50%;
+	cursor: pointer;
+	text-indent: -9999px;
+	z-index: 9999;
+
+	background-color: #333333;
+
+}
+
+.flex-direction-nav a:before {
+	display: block;
+	position: absolute;
+	content: '';
+	width: 9px;
+	height: 13px;
+	top: 11px;
+	left: 0px;
+	background: url(../img/arrows.png) no-repeat;
+}
+
+.flex-direction-nav a:after {
+	display: block;
+	position: absolute;
+	content: '';
+	width: 0;
+	height: 0;
+	top: 35px;
+}
+
+.flex-direction-nav .flex-next {
+	right: 18px;
+	background: url("/img/rightbutton.png") no-repeat;
+
+
+}
+
+.flex-direction-nav .flex-prev {
+	left: 25px;
+	background: url("/img/leftbutton.png") no-repeat;
+}
+
+.flex-direction-nav .flex-next:before { }
+.flex-direction-nav .flex-prev:before { background-position: 0 0;}
+.flex-direction-nav .flex-next:after {
+
+}
+
+.flex-direction-nav .flex-prev:after {
+
+}
+
+/* Control Nav */
+.flex-control-nav li {
+	display: inline-block;
+	zoom: 1;
+}
+
+.flex-control-paging{display: none;}
+
+.flex-control-paging li a{
+	display: block;
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 12px;
+	height: 12px;
+	margin: 0 3px;
+	background-color: #b6b6b6 \9;
+
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+
+	-webkit-box-shadow: inset 0 0 0 2px #b6b6b6;
+	-moz-box-shadow: inset 0 0 0 2px #b6b6b6;
+	box-shadow: inset 0 0 0 2px #b6b6b6;
+}
+
+.flex-control-paging li a.flex-active {
+	background-color: #82d344;
+
+
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.slider_text{ width: 500px; float: right; }
+.slider_text h3{font-size: 25px; color: #333333; margin: 0 0 10px 0;}
+.slider_text p{ color: #666666; margin: 0 0 10px 0; padding: 0 20px 0 0;}
+.slider_text a{color: #333333;}
+.slider_text a:hover{color: #fd4b33;}
+

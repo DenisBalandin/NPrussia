@@ -1,0 +1,7 @@
+RewriteEngine On
+DirectoryIndex /public/index.php
+#RewriteRule ^(.+) $1 [L]
+#RewriteCond %{DOCUMENT_ROOT}/public%{REQUEST_URI} -f
+#RewriteRule ^(.+) /public/$1 [L]
+RewriteRule ^$ public/ [L]
+RewriteRule (.*) public/$1 [L]

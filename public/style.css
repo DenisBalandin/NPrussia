@@ -1,0 +1,200 @@
+*{padding: 0; margin: 0;}
+body{ background:#eeeef0; font-family: Verdana;}
+li{list-style: none}
+a{text-decoration: none}
+
+
+/*Head*/
+#head_bg{width: 100%; height: 152px; background: #FFFFFF;}
+#head_bg_page{width: 100%; height: 152px; background: #eeeef0;}
+#head{width:1230px; margin: 0 auto 0 auto; height: 90px;  }
+.my_name{color: #666666; margin: 20px 0 0 160px; font-size: 14px; display: inline-block; z-index: 20; position: relative;}
+.my_name a{color: #666666;}
+.my_name a:hover{color:#fd4b33; }
+.blog_name{color: #1a1919; font-size: 35px; padding: 44px 0 0 0; }
+.head_menu{margin: 25px 0 0 0; width: 880px; float: left;}
+.head_menu ul li{float: left; margin: 0 14px 0 0;}
+.head_menu ul li a{color:#1a1919; font-size: 15px; }
+.head_menu ul li a:hover{color:#cc0001; border-bottom: 4px solid #cc0001;}
+.search_site{ float: right; margin: 15px 0 0 0;}
+.search_site input{padding: 0 0 0 40px; border: 1px solid #c6c6c6; color: #757575;  width: 240px; height: 32px;}
+.search_icon{ position: absolute; margin: 10px 0 0 15px;}
+/*Head end*/
+
+/*Content*/
+#content{width: 1230px;  margin: 0px auto 0 auto; min-height: 755px;}
+#content_bg{width: 100%; background: #ffffff; display: inline-block;}
+#content_news{width: 1230px; float: left;}
+#content_news_page{width: 1230px; float: left;}
+#content_admin_page{ float: left;}
+#content_news_page img{width: 800px !important;}
+#content_news_page a{color: #333333; text-decoration: underline;}
+#content_news_page a:hover{text-decoration: none;}
+
+.item_meta_teg{ margin: 0 0 0 30px; color: #8c8c91;}
+.news_item{border-bottom: #eeeeee 1px solid; margin: 14px 0px 0px 0; height: 520px; padding: 0 0 30px 0; background: #FFFFFF;}
+.item_full{width:816px; }
+.item_full img{width:816px; }
+.item_full .image{height: 336px; overflow: hidden;}
+.item_full .item_text{overflow: hidden; height:76px; font-size: 14px; padding: 0 15px 0 0;}
+.item_short{width:400px; float:right;}
+.item_short .item_text{overflow: hidden; height: 190px; font-size: 14px; padding: 0 15px 0 0; }
+.item_short .h2_items{font-weight:normal;font-size: 20px; font-family: Verdana; margin:5px 0 0 27px; height: 50px; overflow: hidden; }
+.item_full .h2_items{font-weight:normal;font-size: 20px; font-family: Verdana; margin:5px 0 0 27px; overflow: hidden; height: 40px;}
+.item_left{float:left;}
+.item_right{float:right;}
+.item_short img{width: 400px;  }
+.item_short .image{height: 210px;  overflow: hidden; }
+.item_meta_teg a{color: #8c8c91;}
+.item_meta_teg a:hover{color: #cc0001; }
+
+.h2_items a{color:#1a1919;}
+.h2_items a:hover{color:#cc0001;}
+
+.page_img{ width: 100px!important; padding: 0 20px 20px 0;}
+
+.date{margin: 15px 0 0px 30px;}
+.date a{color:#8c8c91; font-size: 14px; font-family:Arial;}
+.item_text{margin: 10px 0 10px 30px; font-size: 16px; line-height: 25px;}
+.item_text p{margin: 5px 0 10px 0; color: #1a1919; font-family: Verdana;}
+.item_text span{font-size: 18px !important;  color: #333333;}
+.next_page{ margin: 20px 0 20px 0px; width: 800px; height: 40px; background: #eeeeee; text-align: center; padding: 10px 0 0 0; font-size: 20px; font-family: "Open Sans"; color: #333333; border-radius:5px;}
+.next_page:hover{background: #e5554e; color: #FFFFFF;}
+
+.subscription{width: 1230px; height: 120px; display: inline-block; background: #FFFFFF; margin: 14px 0 0 0;}
+.subscription img{margin: 30px 0 0 70px; float: left;}
+.subs{color:#1a1919; width: 378px; margin: 42px 0 0 50px; float: left; }
+.subs_text{width: 303px; height: 56px; border: #c6c6c6 1px solid; margin: 30px 0 0 40px; text-align: center; color:#757575;}
+.subs_button{background:#cc0001; color: #FFFFFF; height: 58px; width: 200px; border: 1px solid #cc0001; font-size: 15px; margin: 0 0 -5px -5px; cursor: pointer;}
+/*Content end*/
+
+/*right block*/
+.photoimage{width: 290px; height: 420px;  margin: 0 0 0 10px;}
+.photoimage img{margin: 0px 0 0 0px;}
+.photoimage p{color: #333333; font-size: 16px; line-height: 25px; margin: 10px 0 0 0;}
+.links_photo{ margin: 10px 0 10px 0;}
+.links_photo a{color:#aaaaaa;  font-size: 20px; }
+.links_photo a:hover{text-decoration: underline; color: #ff4b33;}
+/*right block end*/
+
+/*page blog*/
+#page_blog{}
+#page_blog h3{margin: 0 0 10px 0; font-weight: normal; font-size: 25px;}
+.h1_blog_page{ font-family: "Open Sans";  font-size: 45px;  text-transform: uppercase;  line-height: 1.12174em; margin: 10px 0 15px 0;}
+.page_text{}
+.page_text p{font-size: 14px; line-height: 30px; color: #333333; margin: 10px 0 10px 0;}
+.page_date{    display: block;
+    color: #8c8c91;
+    font-size: .625em;
+    text-transform: uppercase;
+    line-height: 1.25em;
+    margin: 2.5em 0 .75em;
+}
+.page_text img{width: 950px; margin: 25px 0 25px 0;}
+.page_text h4{margin: 15px 0 5px 0; font-size: 19px;}
+
+.social_button{margin: 50px 0 90px 0; float: right;}
+
+.perelinkovka{width: 1200px;  height: 30px; display: inline-block; margin: 50px 0 0 0;}
+.perlinkright{width: 300px;float: right;}
+.perlinkright p {font-size: 16px; text-align: center;}
+.perlinkright a{font-size: 18px; color: #333333; text-decoration: underline;}
+.perlinkright a:hover{text-decoration: none;}
+.perlinkleft{width: 300px; float: left;}
+.perlinkleft p {font-size: 16px; text-align: center;}
+.perlinkleft a{font-size: 18px; color: #333333; text-decoration: underline;}
+.perlinkleft a:hover{text-decoration: none;}
+.socila_button{float: right;}
+
+/*page blog end*/
+
+/*Footer*/
+#footer_bg{width: 100%; border-top:1px solid #cccccc; height: 60px; margin: 30px 0 -5px 0; display: inline-block; background: #2f2f2f;}
+#footer{width: 1230px; height: 30px; margin: 10px auto 0 auto;}
+.podpiska{width: 190px; height: 140px; border-left: 1px solid #eeeeee; margin: 0 0 0 10px; border-right: 1px solid #eeeeee; border-bottom: 1px solid #eeeeee;}
+.podpiska p{text-align: center; margin: 10px 0 10px 0; color: #666666; font-family: "Times New Roman";}
+.podiskatext{width: 150px; border: 1px solid #eeeeee; height: 30px; margin: 0 0 0 20px; color:#666666; text-align: center;}
+.podpiskabutton{background: #0086cc; width: 150px; margin: 10px 0 0 20px; height: 35px; border: none; color: #FFFFFF; font-size: 18px;}
+/*Footer end*/
+
+/*Admin page*/
+.admin_title{margin: 10px 0 10px 0;}
+.admin_title p{font-size: 18px; margin: 0 0 5px 0;}
+.admin_title input{width: 500px; height: 30px; padding: 0 0 0 10px;}
+.admin_title textarea{width: 600px; height: 300px; padding: 5px 0 0 10px;}
+.admin_title desc{width: 500px; height: 300px;}
+.admin_title_img{width: 700px; margin: 0 0 20px 0;}
+.admin_cpulink{margin: 5px 0 5px 0;}
+.admin_cpulink p{font-size: 16px; margin: 0 0 5px 0;}
+.admin_cpulink input{width: 500px; height: 30px;}
+.message_button{width: 90px; height: 30px;}
+
+.addstmenu{ width: 1200px; margin: 0 0 40px 0; border-bottom: #cccccc 1px solid; padding: 0 0 20px 0;}
+.addstmenu a{font-size: 16px; color:#333333; margin: 0 20px 0 0; text-decoration: underline;}
+.addstmenu a:hover{text-decoration: none;}
+
+.adminh2{margin: 0 0 10px 0;}
+
+.chgst{font-size: 16px; margin: 10px 0 20px 0; border-bottom: 1px solid #333333; height: 40px;}
+.chgst a{color: #333333; text-decoration: underline;}
+.chgst a:hover{color: #333333; text-decoration: none;}
+
+.sdmin_button{margin: 20px 0 20px 0; width: 100px; height: 30px}
+
+.deletstrow{float: right; }
+
+/*Admin page end*/
+
+/*Message */
+.contact_items textarea{padding: -40px 0 0 0; font-size: 16px;}
+.contact_items h1{margin: 0 0 10px 0; color: #333333;}
+.contact_items h2{ color: #333333;}
+.contact_items p{margin: 10px 0 10px 0; font-size: 18px;}
+
+/*Search*/
+.search_on_site{width: 280px; height: 40px; border: 1px solid #dddddd; padding: 0px 0 0 10px; margin: 0 0 30px 10px;}
+.pastpage{float: left; width: 250px; height: 30px; border: #cc0001 solid 1px; text-align: center; padding: 10px 0 0 0; margin: 30px 0 30px 0; background: #ffffff; color: #cc0001;}
+.pastpage:hover{background: #cc0001; color: #ffffff;}
+.nextpage{float: right; width: 250px; height: 30px; border: #cc0001 solid 1px; text-align: center; padding: 10px 0 0 0;  margin: 30px 0 30px 0; background: #ffffff; color: #cc0001;}
+.nextpage:hover{background: #cc0001; color: #ffffff;}
+
+/*News blog*/
+.news_item_short{width: 400px; height: 500px; float: left; background: #ffffff; margin: 15px 15px 0px 0;}
+.news_item_short_dop{width: 400px; height: 500px; float: left; background: #ffffff; margin: 15px 15px 0px 0;}
+.news_item_short:nth-child(3n){margin: 15px 0px 0 0px !important;}
+.news_item_short_dop:nth-child(3n+7){margin: 15px 0px 0 0px !important;}
+.news_item_short img{width: 400px;}
+.news_item_short_dop img{width: 400px;}
+.date_news{margin: 10px 0 0px 15px;}
+.date_news a{color:#8c8c91; font-size: 14px; font-family:Arial;}
+.h2_items_news{font-weight:normal;font-size: 19px; font-family: Verdana; margin:5px 0 0 15px; overflow: hidden;}
+.h2_items_news a{color:#1a1919;}
+.h2_items_news a:hover{color:#cc0001;}
+.item_text_news{margin: 10px 0 10px 15px; font-size: 14px; line-height: 25px;  height: 120px; overflow: hidden;}
+.item_text_news p{margin: 5px 0 10px 0; color: #1a1919; font-family: Verdana;}
+.image_news{height: 230px; overflow: hidden;}
+.h1_blog_news{ font-family: "Open Sans";  font-size: 35px;  text-transform: uppercase;  line-height: 1.12174em; margin: 10px 0 15px 0; width: 900px;}
+.page_text_news{width: 900px;}
+.page_text_news p{font-size: 14px; line-height: 30px; color: #333333; margin: 10px 0 10px 0;}
+.page_date_news{display: block;
+    color: #8c8c91;
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 1.25em;
+    margin: 1.2em 0 .75em;
+}
+/*Search page*/
+.search_result_item{width: 816px; height: 288px; background:#ffffff; float: left; margin: 15px 0 0 0;}
+.image_search{width: 400px; height: 288px; overflow: hidden; float: right; margin: 15px 10px 0 0}
+.search_h1{ font-family: "Open Sans";  font-size: 45px;  text-transform: uppercase;  line-height: 1.12174em; margin: 10px 0 15px 0;}
+
+.search_site_page_input{width: 985px; height: 54px; border-left: #8c8c91 1px solid; border-top: #8c8c91 1px solid; border-bottom: #8c8c91 1px solid; padding: 0 0 0 40px; font-size: 27px; float: left;}
+.search_icon_search img{position: absolute; margin: 20px 0 0 15px;}
+.search_site_submit{ width: 200px; height: 56px; background:#cc0001; border: none; font-size: 27px; color: #ffffff; float: left; margin: 0 0 0 -1px; cursor: pointer;}
+.no_result{width: 816px; height: 80px; background: #ffffff; font-size: 28px; margin: 20px 0 0 0; display: inline-block; padding: 40px 0 0 20px; font-weight: bold;}
+/*Search page end*/
+
+
+
+
+
