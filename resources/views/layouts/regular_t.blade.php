@@ -52,7 +52,7 @@
                                                style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" class="ym-advanced-informer" data-cid="45486123" data-lang="ru" /></a>
         <!-- /Yandex.Metrika informer -->
 
-        <!-- Yandex.Metrika counter -->
+        <!-- Yandex.Metrika counter -
         <script type="text/javascript" >
             (function (d, w, c) {
                 (w[c] = w[c] || []).push(function() {

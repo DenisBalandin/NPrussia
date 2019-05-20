@@ -46,17 +46,7 @@ use App\Blogitem;
         <div class="flexslider">
             <ul class="slides">
                 <?php
-//                $blogitemslinks = Blogitem::where('slider','=',1)->where('active','=',1)->paginate(100);
-//                    foreach ($blogitemslinks as $blogitem){
-//                        echo '<li>
-//                            <a href="/blpage/'.$blogitem->cpulink.'"> <img src="'.$blogitem->img.'" /></a>
-//                            <div class="slider_text">
-//                                <h3> '.$blogitem->title.'</h3>
-//                                <p>'.$blogitem->description.'</p>
-//                                <h4><a href="/blpage/'.$blogitem->cpulink.'">Дальше...</a></h4>
-//                            </div>
-//                        </li>';
-//                    }
+
                 ?>
             </ul>
         </div>
@@ -76,7 +66,7 @@ Slider end-->
                                                style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" class="ym-advanced-informer" data-cid="45486123" data-lang="ru" /></a>
         <!-- /Yandex.Metrika informer -->
 
-        <!-- Yandex.Metrika counter -->
+        <!-- Yandex.Metrika counter -
         <script type="text/javascript" >
             (function (d, w, c) {
                 (w[c] = w[c] || []).push(function() {
